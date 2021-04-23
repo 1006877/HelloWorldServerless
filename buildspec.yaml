@@ -11,4 +11,4 @@ phases:
       # Package SAM template
       - sam package --template-file template.yaml --s3-bucket mysambucketforhelloworld --output-template-file packaged.yaml
       # Deploy packaged SAM template
-      - sam deploy --template-file packaged.yaml --region us-east-2 --stack-name sam-app --capabilities CAPABILITY_NAMED_IAM -no-confirm-changeset 
+      - sam deploy --template-file packaged.yaml --region us-east-2 --stack-name sam-app --capabilities CAPABILITY_NAMED_IAM --no-confirm-changeset 
