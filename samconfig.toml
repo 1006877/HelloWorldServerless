@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "sam-app"
+stack_name = "my-sam-app"
 s3_bucket = "mysambucketforhelloworld"
-s3_prefix = "sam-app"
+s3_prefix = "my-sam-app"
 region = "us-east-2"
 no_confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
