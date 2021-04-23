@@ -6,5 +6,5 @@ stack_name = "sam-app"
 s3_bucket = "mysambucketforhelloworld"
 s3_prefix = "sam-app"
 region = "us-east-2"
-no_confirm_changeset = True
+no_confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
