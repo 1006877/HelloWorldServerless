@@ -9,5 +9,5 @@ phases:
       #Build spec reference
       #https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
       # Package SAM template
-      - sam package --template-file template.yaml --s3-bucket mysambucketforhelloworld --output-template-file packaged.yaml
+      - sam package --template-file template.yaml --s3-bucket codepipeline-us-east-2-169714562255 --output-template-file packaged.yaml
       
