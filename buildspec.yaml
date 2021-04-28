@@ -11,6 +11,11 @@ phases:
       # Package SAM template
       - sam build && sam package --template-file template.yaml --s3-bucket mysambucketforhelloworld --output-template-file outputTemplate.yaml 
       
+artifacts:
+  type: zip
+  files:
+    - template.yaml
+    - outputTemplate.yaml      
       
 
       
