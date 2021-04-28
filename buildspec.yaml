@@ -9,7 +9,7 @@ phases:
       #Build spec reference
       #https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
       # Package SAM template
-      - sam build && sam package --template pwd\.aws-sam\build\template.yaml --s3-bucket mysambucketforhelloworld --output-template-file outputTemplate.yaml 
+      - sam build && sam package --template $PATH\.aws-sam\build\template.yaml --s3-bucket mysambucketforhelloworld --output-template-file outputTemplate.yaml 
       
 artifacts:
   files:
